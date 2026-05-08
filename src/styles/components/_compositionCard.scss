@@ -1,0 +1,137 @@
+@use "../variables" as *;
+
+.compositionCard {
+  position: relative;
+
+  display: flex;
+  justify-content: space-between;
+
+  width: clamp(400px, 25vw, 500px);
+  height: clamp(200px, 20vw, 300px);
+  padding: 20px;
+
+  border-radius: 20px;
+  background-color: $primary--dark-blue;
+  color: $white;
+
+  &_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding-left: 20px;
+
+    width: 60%;
+
+    .title {
+      font-family: $font--secondary;
+      font-weight: $font-weight--bold;
+      font-size: 32px;
+
+      width: 90%;
+    }
+
+    .infos {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      margin-bottom: 25px;
+
+      .infoItem {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+
+        margin: 0;
+
+        font-size: 16px;
+        font-weight: $font-weight--medium;
+
+        img {
+          width: 18px;
+          height: 18px;
+          object-fit: contain;
+          flex-shrink: 0;
+        }
+
+        span {
+          line-height: 1;
+        }
+      }
+    }
+
+    .actions {
+      display: flex;
+      gap: 25px;
+      align-items: center;
+
+      width: 100%;
+
+      .info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        width: 50px;
+        height: 50px;
+
+        border-radius: 50%;
+
+        text-decoration: none;
+
+        transition: transform 0.3s ease-in-out;
+
+        &:hover {
+          transform: scale(1.05);
+        }
+
+        img {
+          width: 46px;
+          height: 46px;
+          object-fit: contain;
+        }
+      }
+
+      .play {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        width: 120px;
+        height: 45px;
+
+        border-radius: 15px;
+
+        background-color: $yellow-white;
+        color: $primary--dark-blue;
+
+        font-family: $font--decorative;
+        font-size: 26px;
+
+        text-decoration: none;
+
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+          transform: scale(1.05);
+        }
+      }
+    }
+  }
+
+  &_right {
+    position: relative;
+    width: 40%;
+
+    .selectionImage {
+      position: absolute;
+      width: 280px;
+      height: auto;
+      max-height: 370px;
+
+      top: -20px;
+      left: -50px;
+    }
+  }
+}

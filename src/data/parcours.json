@@ -1,0 +1,184 @@
+[
+  {
+    "id": "parcours_jaws",
+    "compositionId": "jaws",
+
+    "openingDialogues": [
+      {
+        "content": [
+          {
+            "type": "text",
+            "text": "Enchanté de vous rencontrer Maestro ! \n Je suis John Williams, le compositeur des musiques de Star Wars, Indiana Jones et Harry Potter !"
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "type": "text",
+            "text": "Spielberg m'a missionné pour composer la musique des Dents de la mer... \n Ma spécialité ? C'est le leitmotiv ! \n Le but est d'associer un motif musical à un personnage."
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "type": "audioReference",
+            "title": "Écoute cet extrait. \n",
+            "imgTexte": "John Williams, The Imperial March, extrait de la BO du film Star Wars, Épisode V : L'Empire contre-attaque, 1980.",
+            "sousTexte": "Il ne te rappelle pas un personnage en particulier ? Comme Dark Vador ?",
+            "image": "/assets/images/ui/game/references/minia_extrait_starwars.png",
+            "audio": "/assets/audio/references/extrait_starwars.mp3"
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "type": "text",
+            "text": "Comment jouer ? \n Écoute une piste sonore, et si elle appartient à ma composition, glisse-la sur l'instrument correspondant"
+          }
+        ]
+      }
+    ],
+
+    "steps": [
+      {
+        "id": "step_1",
+        "unlockedTracks": ["contrebasses", "trap_1"],
+        "validAnswers": ["contrebasses"],
+        "trapText": "Mais ?... Qu'est-ce que c'est que ce son ? \n Il n'appartient pas à l'orchestre ! Recommence avant que le requin attaque !",
+        "choices": [
+          {
+            "instrumentId": "contrebasses",
+            "hintText": "",
+            "successDialogues": [
+              {
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Tu entends la gravité de ces contrebasses ? Cette succession de 2 notes, ici Mi et Fa, est appelée ostinato en musique.\nIl est bien connu des anciens comme Dvořák."
+                  }
+                ]
+              },
+              {
+                "content": [
+                  {
+                    "type": "audioReference",
+                    "title": "Écoute cet extrait.",
+                    "imgTexte": "Antonín Dvořák, Symphonie n° 9 en mi mineur (Du Nouveau Monde), Op. 95, B. 178, IV. Allegro con fuoco, 1893.",
+                    "sousTexte": "Ici on dirait un battement de cœur, qui bat de plus en plus vite. Le requin semble se rapprocher…",
+                    "image": "/assets/images/ui/game/references/minia_extrait_dvorak.png",
+                    "audio": "/assets/audio/references/extrait_dvorak.mp3"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+
+        "unlocksNext": ["horns", "trombones", "percussions", "trap_2"]
+      },
+      {
+        "id": "step_2",
+        "unlockedTracks": ["horns", "trombones", "percussions", "trap_2"],
+        "validAnswers": ["horns", "trombones", "percussions"],
+        "trapText": "Mais ?... Qu'est-ce que c'est que ce son ? \n Il n'appartient pas à l'orchestre ! Recommence avant que le requin attaque !",
+        "choices": [
+          {
+            "instrumentId": "horns",
+            "hintText": "Ce n'est pas le bon instrument ! Cherche un pupitre d'instruments à l'arrière de l'orchestre avec un timbre puissant et héroïque.",
+            "successDialogues": [
+              {
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Le cor est traditionnellement associé à la chasse… En utilisant le leitmotiv, le requin prend vie avec cet instrument. \n On sent sa présence, son poids, sa vitesse d'attaque qui accélère…"
+                  }
+                ]
+              },
+              {
+                "content": [
+                  {
+                    "type": "audioReference",
+                    "title": "Écoute cet extrait.",
+                    "imgTexte": "Wolfgang Amadeus Mozart, Concerto pour Cor et Orchestre n° 1 en Ré majeur, K. 412/386b, 1791.",
+                    "sousTexte": "",
+                    "image": "/assets/images/ui/game/references/minia_extrait_mozart_concerto_cor.png",
+                    "audio": "/assets/audio/references/extrait_mozart_concerto_cor.mp3"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "instrumentId": "trombones",
+            "successText": "Les accords des tenor trombones sortent du lot n'est-ce pas ? \n Leur puissance poussée dans les nuances fortissimo génère des harmoniques impaires plutôt inattendues et déroutantes.",
+            "hintText": "C'est incorrect. Essaie plutôt vers les cuivres sans pistons."
+          },
+          {
+            "instrumentId": "percussions",
+            "successText": "L'enclume apporte une sonorité métallique et froide. \n Elle martèle le rythme comme une machinerie acharnée, ou celle d'un prédateur sans remords.",
+            "hintText": "Réessaye. Ce n'est pas vraiment un instrument. C'est la première fois qu'on le voit dans un orchestre symphonique. Il a été choisi pour son impact sec et métallique."
+          }
+        ],
+        "unlocksNext": ["violin", "flutes", "xylophone", "harp", "trap_3"]
+      },
+      {
+        "id": "step_3",
+        "unlockedTracks": ["violin", "flutes", "xylophone", "harp", "trap_3"],
+        "validAnswers": ["violin", "flutes", "xylophone", "harp"],
+        "trapText": "Mais ?... Qu'est-ce que c'est que ce son ? \n Il n'appartient pas à l'orchestre ! Recommence avant que le requin attaque !",
+        "choices": [
+          {
+            "instrumentId": "violin",
+            "hintText": "Non, c'est le plus petit membre de la famille des cordes.",
+            "successDialogues": [
+              {
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Superposés aux cordes graves, le son strident des violons imite des signaux de détresse. \n Ressens-tu cette tension de plus en plus forte ? \n On se croirait dans Psychose… Le requin semble être prêt à attaquer !"
+                  }
+                ]
+              },
+              {
+                "content": [
+                  {
+                    "type": "audioReference",
+                    "title": "Écoute cet extrait.",
+                    "imgTexte": "Bernard Herrmann, The Murder, extrait de la BO du film Psychose, 1960.",
+                    "sousTexte": "",
+                    "image": "/assets/images/ui/game/references/minia_extrait_psychose.png",
+                    "audio": "/assets/audio/references/extrait_psychose.mp3"
+                  }
+                ]
+              }
+            ]
+          },
+
+          {
+            "instrumentId": "flutes",
+            "successText": "Les flûtes créent des stries sonores qui simulent l'agitation de la surface de l'eau et la respiration rapide des victimes.",
+            "hintText": "Ce n'est pas le bon instrument, tourne-toi vers un instrument léger des bois."
+          },
+          {
+            "instrumentId": "xylophone",
+            "successText": "Le xylophone ajoute une texture sèche et osseuse, il accentue le caractère sauvage de l'attaque. \n Tu entends que le rythme s'est accéléré depuis le début ?",
+            "hintText": "C'est incorrect, cet instrument se compose de touches de différentes longueurs disposées comme un clavier."
+          },
+          {
+            "instrumentId": "harp",
+            "successText": "La douceur de la harpe est trompeuse… \n Ses sonorités étouffées simulent la réverbération acoustique sous-marine et désorientent.",
+            "hintText": "Réessaye. C'est un instrument à cordes très imposant."
+          }
+        ],
+        "unlocksNext": []
+      }
+    ],
+
+    "finalScreen": {
+      "text": "Bravo Maestro ! Tu as reconstruit l'univers sonore des Dents de la mer."
+    }
+  }
+]

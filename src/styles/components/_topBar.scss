@@ -1,0 +1,165 @@
+@use "../variables" as *;
+
+// Bar de navigation  //
+.top-bar {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 30px 70px 10px 70px;
+  z-index: $z-highlight;
+
+  max-height: 80px;
+
+  &_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 10px;
+    width: clamp(50px, 2vw, 60px);
+    height: clamp(50px, 2vw, 60px);
+
+    border-radius: $radius-xxl;
+
+    transition: transform 0.5s ease;
+  }
+
+  .profile {
+    background-color: $primary--dark-blue;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+
+    img {
+      width: 90%;
+      height: 90%;
+    }
+  }
+
+  .back {
+    font-family: $font--decorative;
+    font-size: 128px;
+
+    color: $primary--white;
+
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  .search-bar {
+    width: clamp(800px, 2vw, 1000px);
+    height: clamp(60px, 2vw, 70px);
+
+    margin: auto;
+
+    background-color: $yellow-white;
+    border-radius: $radius-xl;
+
+    box-shadow: $box-shadow-black;
+
+    & input {
+      width: 100%;
+      height: 100%;
+      padding: 0 50px;
+
+      font-family: $font--main;
+      font-weight: $font-weight--bold;
+      font-size: clamp(16px, 1.5vw, 20px);
+      color: $primary--dark-blue;
+
+      border: none;
+      border-radius: $radius-xl;
+
+      &:focus {
+        outline: $border-md solid $primary--dark-blue;
+      }
+
+      &::placeholder {
+        color: $primary--dark-blue;
+        font-weight: $font-weight--medium;
+        opacity: 0.7;
+      }
+    }
+  }
+
+  .game-info-bar {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: clamp(420px, 42vw, 650px);
+    height: 70px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    border: $border-md solid white;
+    border-radius: $radius-xxl;
+
+    background-color: $primary--red;
+    color: $primary--white;
+
+    font-family: $font--secondary;
+    font-weight: $font-weight--bold;
+    font-size: clamp(28px, 2vw, 36px);
+
+    cursor: pointer;
+
+    &_arrow-bas {
+      padding: 5px 0 0 10px;
+      width: 30px;
+      height: auto;
+    }
+  }
+
+  .logo {
+    width: clamp(180px, 5vw, 220px);
+    height: auto;
+
+    padding-top: 70px;
+  }
+
+  .top-bar_right {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+    .language {
+      width: clamp(80px, 2vw, 90px);
+      height: clamp(80px, 2vw, 90px);
+      background-image: url(/assets/images/ui/home/french.png);
+      background-size: cover;
+
+      &:hover {
+        transform: rotate(360deg);
+      }
+    }
+
+    .informations {
+      background-color: $yellow-white;
+      outline: $border-lg solid $black;
+
+      font-family: $font--secondary;
+      font-weight: $font-weight--bold;
+      font-size: clamp(50px, 2vw, 60px);
+
+      text-decoration: none;
+      color: $primary--dark-blue;
+
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+  }
+}
+// --------------- //

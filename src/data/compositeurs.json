@@ -1,0 +1,531 @@
+[
+  {
+    "id": "john_williams",
+    "name": "John Williams",
+    "content": [
+      {
+        "type": "biography",
+        "title": "Biographie",
+        "data": {
+          "birth": "1932 à New York (Etats-Unis)",
+          "style": "Contemporain",
+          "instruments": "Saxophone, piano, baryton, clarinette basse, clavecin, basse",
+          "works": "Les Dents de la mer, Star Wars, Superman, Indiana Jones, E.T. l'extra-terrestre, Jurassic Park, Harry Potter"
+        }
+      },
+      {
+        "type": "text",
+        "title": "L'éveil",
+        "text": "L'histoire de John Williams commence dans les clubs de jazz de New York et les studios de la Fox. Fils d'un percussionniste, il forge son génie à la Juilliard School avant de devenir le pianiste de studio le plus convoité d'Hollywood. Il prête ses doigts aux partitions de Bernard Herrmann ou d'Henry Mancini, tout en apprenant l'art de la narration télévisuelle."
+      },
+      {
+        "type": "text",
+        "title": "Les grands succès",
+        "text": "L'année 1974 marque la rencontre providentielle avec Steven Spielberg. Ensemble, ils redéfinissent le cinéma : le motif de deux notes des Dents de la mer, réalisé en 1975, devient l'incarnation même de la peur. En 1977, alors que la mode est aux synthétiseurs, Williams prend le risque de ressusciter le grand orchestre avec Star Wars. Il réinvente le leitmotiv wagnérien, offrant une identité sonore à l'héroïsme (Superman, Indiana Jones). "
+      },
+      {
+        "type": "text",
+        "title": "L'héritage d'un maître",
+        "text": "Devenu une institution vivante, Williams passe de l'écran au pupitre du Boston Pops Orchestra. Il ne se contente plus de servir le cinéma ; il écrit pour les Jeux Olympiques et les plus grands solistes mondiaux. Aujourd'hui, il incarne le dernier lien avec l'âge d'or d'Hollywood. Si sa production s'est ralentie et que l'incertitude plane sur de futurs longs-métrages après l'achèvement des sagas de sa vie (Star Wars IX, Indiana Jones 5), son influence demeure hégémonique. Sa longévité, marquée par 54 nominations aux Oscars, témoigne de son génie artistique mondialement reconnu."
+      }
+    ],
+    "images": {
+      "neutral": "/assets/images/compositeurs/john_williams/neutral.png",
+      "angry": "/assets/images/compositeurs/john_williams/angry.png"
+    },
+    "portraitStyle": {
+      "scale": 1.7
+    }
+  },
+  {
+    "id": "jesper_kyd",
+    "name": "Jesper Kyd",
+    "content": [
+      {
+        "type": "biography",
+        "title": "Biographie",
+        "data": {
+          "birth": "1972 à Hørsholm (Danemark)",
+          "style": "Contemporain",
+          "instruments": "Piano, ordinateur",
+          "works": "Assassin's Creed, Hitman, Borderlands, Warhammer 40,000: Darktide, State of Decay, Subnautica: BZ"
+        }
+      },
+      {
+        "type": "text",
+        "title": "L'immersion numérique",
+        "text": "L'ascension de Jesper Kyd débute dans l'effervescence de la démoscene européenne des années 1980. Au sein du groupe The Silents, il repousse les limites sonores de la puce Commodore Amiga. Cofondateur du studio Zyrinx, il quitte le Danemark pour les États-Unis, transformant ses expérimentations techniques en une narration sonore immersive. Il forge son identité dans l'éclectisme, passant des rythmes technoïdes des premiers titres 16-bits à une maturité compositionnelle qui anticipe l'évolution cinématographique du média."
+      },
+      {
+        "type": "text",
+        "title": "L'hybridation des genres",
+        "text": "Le tournant majeur survient avec la franchise Hitman. En 2002, pour Silent Assassin, Kyd révolutionne la musique de jeu en enregistrant avec l'Orchestre symphonique de Budapest, fusionnant chœurs gothiques et textures électroniques froides. Cette approche atteint son apogée avec Assassin's Creed II : le thème « Ezio's Family » devient l'emblème sonore de la licence, mêlant voix éthérées et cordes mélancoliques pour capturer l'essence de la Renaissance. Son génie réside dans sa capacité à créer des paysages sonores où l'instrumentation traditionnelle se dissout dans le design sonore."
+      },
+      {
+        "type": "text",
+        "title": "L'avant-garde du média",
+        "text": "Devenu une référence incontournable, Kyd navigue aujourd'hui entre l'électro-industrielle brutale de Warhammer 40,000: Darktide et les sonorités folk-ambient d'Assassin's Creed Valhalla. Lauréat d'un BAFTA, il est perçu comme l'architecte de l'atmosphère moderne, capable de donner une âme organique aux mondes numériques les plus vastes. Si son style évolue perpétuellement vers plus d'abstraction et d'expérimentation, son influence sur la perception de la musique de jeu comme art total demeure hégémonique."
+      }
+    ],
+    "images": {
+      "neutral": "/assets/images/compositeurs/jesper_kyd/neutre.png",
+      "angry": "/assets/images/compositeurs/jesper_kyd/enerve.png"
+    }
+  },
+  {
+    "id": "hans_zimmer",
+    "name": "Hans Zimmer",
+    "content": [
+      {
+        "type": "biography",
+        "title": "Biographie",
+        "data": {
+          "birth": "",
+          "style": "",
+          "instruments": "",
+          "works": ""
+        }
+      },
+      {
+        "type": "text",
+        "title": "",
+        "text": ""
+      },
+      {
+        "type": "text",
+        "title": "",
+        "text": ""
+      },
+      {
+        "type": "text",
+        "title": "",
+        "text": ""
+      }
+    ],
+    "images": {
+      "neutral": "/assets/images/compositeurs/hans_zimmer/neutre.png",
+      "angry": "/assets/images/compositeurs/hans_zimmer/enerve.png"
+    }
+  },
+  {
+    "id": "danny_elfman",
+    "name": "Danny Elfman",
+    "content": [
+      {
+        "type": "biography",
+        "title": "Biographie",
+        "data": {
+          "birth": "",
+          "style": "",
+          "instruments": "",
+          "works": ""
+        }
+      },
+      {
+        "type": "text",
+        "title": "",
+        "text": ""
+      },
+      {
+        "type": "text",
+        "title": "",
+        "text": ""
+      },
+      {
+        "type": "text",
+        "title": "",
+        "text": ""
+      }
+    ],
+    "images": {
+      "neutral": "/assets/images/compositeurs/danny_elfman/neutre.png",
+      "angry": "/assets/images/compositeurs/danny_elfman/enerve.png"
+    }
+  },
+  {
+    "id": "yu-peng_chen",
+    "name": "Yu-Peng Chen",
+    "content": [
+      {
+        "type": "biography",
+        "title": "Biographie",
+        "data": {
+          "birth": "",
+          "style": "",
+          "instruments": "",
+          "works": ""
+        }
+      },
+      {
+        "type": "text",
+        "title": "",
+        "text": ""
+      },
+      {
+        "type": "text",
+        "title": "",
+        "text": ""
+      },
+      {
+        "type": "text",
+        "title": "",
+        "text": ""
+      }
+    ],
+    "images": {
+      "neutral": "/assets/images/compositeurs/yu-peng_chen/neutre.png",
+      "angry": "/assets/images/compositeurs/yu-peng_chen/enerve.png"
+    }
+  },
+  {
+    "id": "yasuaki_iwata",
+    "name": "Yasuaki Iwata",
+    "content": [
+      {
+        "type": "biography",
+        "title": "Biographie",
+        "data": {
+          "birth": "",
+          "style": "",
+          "instruments": "",
+          "works": ""
+        }
+      },
+      {
+        "type": "text",
+        "title": "",
+        "text": ""
+      },
+      {
+        "type": "text",
+        "title": "",
+        "text": ""
+      },
+      {
+        "type": "text",
+        "title": "",
+        "text": ""
+      }
+    ],
+    "images": {
+      "neutral": "/assets/images/compositeurs/yasuaki_iwata/neutre.png",
+      "angry": "/assets/images/compositeurs/yasuaki_iwata/enerve.png"
+    }
+  },
+  {
+    "id": "koji_kondo",
+    "name": "Koji Kondo",
+    "content": [
+      {
+        "type": "biography",
+        "title": "Biographie",
+        "data": {
+          "birth": "",
+          "style": "",
+          "instruments": "",
+          "works": ""
+        }
+      },
+      {
+        "type": "text",
+        "title": "",
+        "text": ""
+      },
+      {
+        "type": "text",
+        "title": "",
+        "text": ""
+      },
+      {
+        "type": "text",
+        "title": "",
+        "text": ""
+      }
+    ],
+    "images": {
+      "neutral": "/assets/images/compositeurs/koji_kondo/neutre.png",
+      "angry": "/assets/images/compositeurs/koji_kondo/enerve.png"
+    }
+  },
+  {
+    "id": "antonin_dvorak",
+    "name": "Antonín Dvořák",
+    "content": [
+      {
+        "type": "biography",
+        "title": "Biographie",
+        "data": {
+          "birth": "",
+          "style": "",
+          "instruments": "",
+          "works": ""
+        }
+      },
+      {
+        "type": "text",
+        "title": "",
+        "text": ""
+      },
+      {
+        "type": "text",
+        "title": "",
+        "text": ""
+      },
+      {
+        "type": "text",
+        "title": "",
+        "text": ""
+      }
+    ],
+    "images": {
+      "neutral": "/assets/images/compositeurs/antonin_dvorak/neutre.png",
+      "angry": "/assets/images/compositeurs/antonin_dvorak/enerve.png"
+    }
+  },
+  {
+    "id": "frederic_chopin",
+    "name": "Frédéric Chopin",
+    "content": [
+      {
+        "type": "biography",
+        "title": "Biographie",
+        "data": {
+          "birth": "",
+          "style": "",
+          "instruments": "",
+          "works": ""
+        }
+      },
+      {
+        "type": "text",
+        "title": "",
+        "text": ""
+      },
+      {
+        "type": "text",
+        "title": "",
+        "text": ""
+      },
+      {
+        "type": "text",
+        "title": "",
+        "text": ""
+      }
+    ],
+    "images": {
+      "neutral": "/assets/images/compositeurs/frederic_chopin/neutre.png",
+      "angry": "/assets/images/compositeurs/frederic_chopin/enerve.png"
+    }
+  },
+  {
+    "id": "richard_wagner",
+    "name": "Richard Wagner",
+    "content": [
+      {
+        "type": "biography",
+        "title": "Biographie",
+        "data": {
+          "birth": "",
+          "style": "",
+          "instruments": "",
+          "works": ""
+        }
+      },
+      {
+        "type": "text",
+        "title": "",
+        "text": ""
+      },
+      {
+        "type": "text",
+        "title": "",
+        "text": ""
+      },
+      {
+        "type": "text",
+        "title": "",
+        "text": ""
+      }
+    ],
+    "images": {
+      "neutral": "/assets/images/compositeurs/richard_wagner/neutre.png",
+      "angry": "/assets/images/compositeurs/richard_wagner/enerve.png"
+    }
+  },
+  {
+    "id": "tchaikovsk",
+    "name": "Piotr Ilitch Tchaïkovski",
+    "content": [
+      {
+        "type": "biography",
+        "title": "Biographie",
+        "data": {
+          "birth": "",
+          "style": "",
+          "instruments": "",
+          "works": ""
+        }
+      },
+      {
+        "type": "text",
+        "title": "",
+        "text": ""
+      },
+      {
+        "type": "text",
+        "title": "",
+        "text": ""
+      },
+      {
+        "type": "text",
+        "title": "",
+        "text": ""
+      }
+    ],
+    "images": {
+      "neutral": "/assets/images/compositeurs/tchaikovsk/neutre.png",
+      "angry": "/assets/images/compositeurs/tchaikovsk/enerve.png"
+    }
+  },
+
+  {
+    "id": "mozart",
+    "name": "Wolfgang Amadeus Mozart",
+    "content": [
+      {
+        "type": "biography",
+        "title": "Biographie",
+        "data": {
+          "birth": "",
+          "style": "",
+          "instruments": "",
+          "works": ""
+        }
+      },
+      {
+        "type": "text",
+        "title": "",
+        "text": ""
+      },
+      {
+        "type": "text",
+        "title": "",
+        "text": ""
+      },
+      {
+        "type": "text",
+        "title": "",
+        "text": ""
+      }
+    ],
+    "images": {
+      "neutral": "/assets/images/compositeurs/mozart/neutre.png",
+      "angry": "/assets/images/compositeurs/mozart/enerve.png"
+    }
+  },
+  {
+    "id": "bach",
+    "name": "Johann Sebastian Bach",
+    "content": [
+      {
+        "type": "biography",
+        "title": "Biographie",
+        "data": {
+          "birth": "",
+          "style": "",
+          "instruments": "",
+          "works": ""
+        }
+      },
+      {
+        "type": "text",
+        "title": "",
+        "text": ""
+      },
+      {
+        "type": "text",
+        "title": "",
+        "text": ""
+      },
+      {
+        "type": "text",
+        "title": "",
+        "text": ""
+      }
+    ],
+    "images": {
+      "neutral": "/assets/images/compositeurs/bach/neutre.png",
+      "angry": "/assets/images/compositeurs/bach/enerve.png"
+    }
+  },
+  {
+    "id": "beethoven",
+    "name": "Ludwig van Beethoven",
+    "content": [
+      {
+        "type": "biography",
+        "title": "Biographie",
+        "data": {
+          "birth": "",
+          "style": "",
+          "instruments": "",
+          "works": ""
+        }
+      },
+      {
+        "type": "text",
+        "title": "",
+        "text": ""
+      },
+      {
+        "type": "text",
+        "title": "",
+        "text": ""
+      },
+      {
+        "type": "text",
+        "title": "",
+        "text": ""
+      }
+    ],
+    "images": {
+      "neutral": "/assets/images/compositeurs/beethoven/neutre.png",
+      "angry": "/assets/images/compositeurs/beethoven/enerve.png"
+    }
+  },
+  {
+    "id": "vivaldi",
+    "name": "Antonio Vivaldi",
+    "content": [
+      {
+        "type": "biography",
+        "title": "Biographie",
+        "data": {
+          "birth": "",
+          "style": "",
+          "instruments": "",
+          "works": ""
+        }
+      },
+      {
+        "type": "text",
+        "title": "",
+        "text": ""
+      },
+      {
+        "type": "text",
+        "title": "",
+        "text": ""
+      },
+      {
+        "type": "text",
+        "title": "",
+        "text": ""
+      }
+    ],
+    "images": {
+      "neutral": "/assets/images/compositeurs/vivaldi/neutre.png",
+      "angry": "/assets/images/compositeurs/vivaldi/enerve.png"
+    }
+  }
+]

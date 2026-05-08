@@ -1,0 +1,66 @@
+[
+  {
+    "id": "tracks",
+    "texts": [
+      "Ici tu auras l'opportunité d'écouter un extrait.",
+      "Clique sur le bouton play pour écouter une première piste sonore.",
+      "À gauche, tu as un bouton pour prendre la piste afin de la déposer sur les instruments"
+    ],
+    "bubblePosition": {
+      "top": "40%",
+      "left": "clamp(340px, 32vw, 550px)"
+    },
+    "highlightClass": "tutorial-highlight-tracks"
+  },
+  {
+    "id": "scene",
+    "texts": [
+      "Tu trouveras ici les instruments sur lequels glisser une piste sonore.",
+      "Si tu glisses la bonne piste sonore sur le bon instrument alors tu pourras entendre sa mélodie et tu verras apparaître son musicien",
+      "Tu auras la possibilité en cliquant sur l'instrument de consulter des informations sur celui-ci",
+      "Tu pourras aussi t'amuser à jouer sur le son de l'instrument (plus ou moins fort)"
+    ],
+    "bubblePosition": {
+      "top": "82%",
+      "left": "clamp(700px, 50vw, 930px)"
+    },
+    "highlightClass": "tutorial-highlight--scene"
+  },
+  {
+    "id": "timer",
+    "texts": [
+      "Ici, tu peux lancer ou mettre en pause la composition complète.",
+      "Le temps avance pendant l'écoute et te permet de débloquer des récompenses.",
+      "Lorsque tu atteins certains moments de la musique, des coffres deviennent disponibles."
+    ],
+    "bubblePosition": {
+      "top": "90%",
+      "left": "clamp(300px, 32vw, 550px)"
+    },
+    "highlightClass": "tutorial-highlight-timer"
+  },
+  {
+    "id": "composer",
+    "texts": [
+      "Ici se trouve le compositeur de l'œuvre.",
+      "Clique sur le livre pour consulter sa biographie et en apprendre plus sur son univers."
+    ],
+    "bubblePosition": {
+      "top": "92%",
+      "left": "clamp(980px, 76vw, 1450px)"
+    },
+    "highlightClass": "tutorial-highlight-composer"
+  },
+  {
+    "id": "dialogue",
+    "texts": [
+      "Cette zone affiche les consignes, les indices et les explications du compositeur.",
+      "Clique sur la boîte de dialogue pour avancer dans l'histoire."
+    ],
+    "bubblePosition": {
+      "top": "82%",
+      "left": "clamp(520px, 36vw, 700px)"
+    },
+    "highlightClass": "tutorial-highlight-dialogue"
+  }
+]

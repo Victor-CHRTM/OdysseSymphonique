@@ -1,0 +1,74 @@
+// Importation SCSS
+@use "../variables" as *;
+
+.home {
+  width: 100%;
+  height: 100vh;
+
+  background-image: url("/assets/images/ui/home/cover.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.opacity-home {
+  position: absolute;
+  z-index: $z-base;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba($black, 45%);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+  z-index: $z-highlight;
+
+  img {
+    width: 25vw;
+    height: auto;
+  }
+}
+
+.btn-start-experience {
+  display: flex;
+  justify-content: center;
+
+  position: relative;
+  padding-top: 20vh;
+  z-index: $z-highlight;
+
+  .Link {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+
+    img {
+      display: block;
+      width: 300px;
+      height: 110px;
+    }
+
+    span {
+      position: absolute;
+      top: 45%;
+      transform: translate(-50%, -50%);
+
+      font-family: $font--secondary;
+      font-weight: $font-weight--semi-bold;
+      font-size: clamp(32px, 2vw, 40px);
+      color: $black;
+
+      pointer-events: none;
+    }
+  }
+}

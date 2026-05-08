@@ -1,0 +1,49 @@
+@use "../variables" as *;
+
+.gameSelection {
+  width: 100%;
+  height: 100vh;
+
+  background-image: url("/assets/images/ui/selection/cover.png");
+  background-size: 210%;
+  background-position: 15% 60%;
+  background-repeat: no-repeat;
+
+  .opacity-selection {
+    position: absolute;
+    z-index: $z-base;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+
+    background-color: rgba(255, 255, 255, 0.05);
+  }
+
+  .gameSelection_content {
+    display: flex;
+    align-items: stretch;
+    height: calc(100vh - 100px);
+
+    .themes_cards {
+      z-index: $z-highlight;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-bottom: 50px;
+    }
+
+    .compositions_cards {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: clamp(20px, 2vw, 20px) clamp(20px, 8vw, 120px);
+
+      margin-top: 3vw;
+      margin-left: 5vw;
+      z-index: $z-highlight;
+    }
+  }
+}

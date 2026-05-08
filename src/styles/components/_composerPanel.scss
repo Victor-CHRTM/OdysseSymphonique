@@ -1,0 +1,67 @@
+@use "../variables" as *;
+
+.composerPanel {
+  position: relative;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+
+  width: 190px;
+  height: 190px;
+
+  transform: translateY(-40px);
+
+  &_portrait {
+    position: relative;
+
+    width: 165px;
+    height: 165px;
+
+    border: 3px solid $white;
+    border-radius: 50%;
+
+    overflow: hidden;
+    background-color: $primary--red;
+
+    img {
+      position: absolute;
+
+      bottom: 0;
+      width: 110%;
+      height: auto;
+    }
+  }
+
+  &_book {
+    position: absolute;
+    z-index: 2;
+
+    left: 50%;
+    bottom: -24px;
+    transform: translateX(-50%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 70px;
+    height: 60px;
+
+    border: 2px solid $white;
+    border-radius: 50%;
+
+    background-color: $primary--dark-blue;
+    cursor: pointer;
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    &:hover {
+      transform: translateX(-50%) scale(1.05);
+    }
+  }
+}

@@ -1,0 +1,194 @@
+[
+  {
+    "id": "horns",
+    "name": "Cor",
+    "usedIn": ["jaws", "dvorak"],
+    "family": "Cuivres à perce conique (s'élargissant progressivement)",
+    "dimensions": "~3,7 à 5,2 mètres de tubure (selon l'accordage Fa ou Sib) enroulée sur elle-même",
+    "weight": "EEnviron 2,2 à 3 kg pour un cor double standard",
+    "repertoire": "Mozart, Strauss, Wagner, Mahler, Williams, Shore",
+    "image": "/assets/images/ui/game/instruments/cor.png",
+    "sections": [
+      {
+        "title": "L'héritage de la nature",
+        "text": "Le cor puise ses racines dans l'appel primitif des cornes animales et des trompes de chasse baroques. Longtemps limité à la série harmonique naturelle, l'instrument subit une mutation structurelle majeure au XIXe siècle avec l'invention des pistons par Heinrich Stölzel et Friedrich Blühmel. Cette évolution technique libère le cor de ses contraintes physiques, lui permettant d'accéder à une chromaticité totale tout en conservant sa perce conique distinctive qui lui confère ce timbre sombre et profond."
+      },
+      {
+        "title": "L'alchimie du timbre",
+        "text": "Sa singularité réside dans sa polyvalence acoustique, agissant comme le liant organique entre les bois et les cuivres au sein de l'orchestre. Maître du lyrisme romantique, le cor devient chez Wagner ou Mahler le vecteur de l'introspection et du sublime. Sa technique, incluant l'usage de la main droite dans le pavillon pour corriger la justesse ou modifier la couleur (sons bouchés), offre une palette expressive unique, capable de passer d'un murmure pastoral à une puissance tellurique."
+      },
+      {
+        "title": "Le souffle de l'épique contemporain",
+        "text": "Indissociable de la narration cinématographique et vidéoludique moderne, le cor est l'instrument de l'héroïsme par excellence. De la noblesse des thèmes de John Williams à la mélancolie des partitions de Howard Shore, il structure l'imaginaire collectif lié à l'aventure et au mythologique. Son influence demeure hégémonique dans le design sonore actuel, où il est utilisé pour incarner la majesté des mondes ouverts et la profondeur des récits épiques."
+      }
+    ]
+  },
+  {
+    "id": "harp",
+    "name": "Harpe",
+    "usedIn": ["jaws", "assassins"],
+    "family": "Cordes pincées",
+    "dimensions": "~1,85 mètre de hauteur ; 47 cordes (harpe de concert)",
+    "weight": "Environ 35 à 40 kg pour un modèle à pédales standard",
+    "repertoire": "Debussy, Ravel, Handel, Glière, Williams, Uematsu",
+    "image": "/assets/images/ui/game/instruments/harpe.png",
+    "sections": [
+      {
+        "title": "L'architecture du temps",
+        "text": "Issue des lyres mésopotamiennes et des harpes angulaires de l'Égypte antique, la harpe est l'un des plus anciens instruments du monde. Sa structure moderne culmine au début du XIXe siècle avec l'invention du mécanisme à double mouvement par Sébastien Érard. Cette prouesse d'ingénierie, reliant les pédales à des fourchettes rotatives, permet de modifier la tension des cordes en temps réel. Cette évolution libère l'instrument de sa diatonie originelle pour lui offrir une chromaticité complète, indispensable aux exigences harmoniques du langage moderne."
+      },
+      {
+        "title": "L'éther sonore",
+        "text": "Sa singularité réside dans sa résonance cristalline et sa capacité à saturer l'espace acoustique de textures immatérielles. Contrairement au piano, l'attaque directe de la pulpe des doigts sur la corde crée une proximité organique avec le son. Utilisée par les impressionnistes comme Debussy ou Ravel, la harpe devient l'instrument des fluides et de l'onirisme. Grâce à l'usage des harmoniques, des glissandos et des sons \"près de la table\", elle déploie une palette de timbres allant de la clarté métallique à la douceur veloutée."
+      },
+      {
+        "title": "Le sillage de l'imaginaire",
+        "text": "Dans la culture contemporaine, la harpe est le vecteur privilégié du sacré et du merveilleux. Incontournable dans les partitions de Nobuo Uematsu ou de la musique de film fantastique, elle structure les moments de transition entre le réel et l'indicible. Au-delà de son rôle d'accompagnement, elle incarne aujourd'hui la nostalgie des mondes perdus et la sérénité des environnements contemplatifs. Son influence est majeure dans le design sonore interactif, où elle souligne souvent la découverte, la magie et la verticalité des récits mythiques."
+      }
+    ]
+  },
+  {
+    "id": "percussions",
+    "name": "Timbales",
+    "usedIn": ["jaws", "assassins", "dvorak"],
+    "family": "Percussions à hauteur déterminée (peaux frappées)",
+    "dimensions": "Jeu standard de 4 à 5 fûts (diamètres de ~50 cm à ~81 cm)",
+    "weight": "40 à 60 kg par unité (selon le mécanisme de pédale)",
+    "repertoire": "Beethoven, Berlioz, Strauss, Bartók, Zimmer, Shore",
+    "image": "/assets/images/ui/game/instruments/percussions.png",
+    "sections": [
+      {
+        "title": "Le tonnerre commandé",
+        "text": "Descendantes des nacaires médiévales et des tambours de cavalerie, les timbales s'émancipent de leur rôle militaire pour devenir le cœur battant de l'orchestre symphonique. La révolution technique intervient au XIXe siècle avec la mise au point de la pédale, permettant un accordage instantané. Cette innovation transforme l'instrument : de simple marqueur rythmique, il devient une entité mélodique capable de glissandos et de changements de tonalité rapides, intégrant pleinement la structure harmonique de l'œuvre."
+      },
+      {
+        "title": "L'autorité du rythme",
+        "text": "Leur singularité repose sur l'équilibre entre la puissance percussive et la précision du ton. Contrairement aux autres tambours, la timbale produit une note précise grâce à la tension de sa membrane (peau animale ou synthétique) sur un fût en cuivre hémisphérique. Maître de la tension dramatique chez Beethoven ou de la fureur sonore chez Mahler, elle définit l'architecture dynamique. Le choix des baguettes (bois, feutre, cuir) permet de moduler l'attaque, allant d'une résonance sourde et menaçante à un impact sec et souverain."
+      },
+      {
+        "title": "L'écho de la puissance",
+        "text": "Dans la musique de film et de jeu vidéo, la timbale est le pilier de la solennité et de l'urgence. Elle est l'instrument de la gravité historique et de l'inéluctabilité. Des roulements profonds de Howard Shore illustrant la marche des armées aux impacts syncopés de Hans Zimmer, elle confère une assise tellurique à l'image. Son rôle actuel dépasse la simple ponctuation : elle incarne le poids du destin, la majesté des récits épiques et la force brute des confrontations mythologiques."
+      }
+    ]
+  },
+  {
+    "id": "xylophone",
+    "name": "Xylophone",
+    "usedIn": ["jaws"],
+    "family": "Percussions à hauteur déterminée (clavier de bois)",
+    "dimensions": "~1,2 à 1,5 mètre de longueur ; tessiture de 3,5 à 4 octaves",
+    "weight": "Environ 25 à 40 kg (selon le châssis et les résonateurs)",
+    "repertoire": "Saint-Saëns, Chostakovitch, Messiaen, Gershwin, Elfman",
+    "image": "/assets/images/ui/game/instruments/xylophone.png",
+    "sections": [
+      {
+        "title": "La résonance du bois",
+        "text": "Bien que des instruments similaires existent depuis des millénaires en Asie et en Afrique, le xylophone s'intègre tardivement à l'orchestre occidental, vers le milieu du XIXe siècle. Sa structure repose sur des lames de palissandre ou de matériaux synthétiques, accordées avec précision et disposées comme un clavier de piano. L'ajout de tubes résonateurs sous chaque lame a permis d'amplifier sa projection, transformant cet instrument autrefois folklorique en un pilier de la percussion moderne capable de percer les textures orchestrales les plus denses"
+      },
+      {
+        "title": "La clarté incisive",
+        "text": "Sa singularité réside dans sa brièveté acoustique et son timbre sec. À l'inverse du marimba, dont le son est chaud et profond, le xylophone produit une attaque percutante et brillante qui s'éteint presque instantanément. Maître de la dérision et du grotesque chez Saint-Saëns (Danse Macabre) ou de la virtuosité rythmique chez Chostakovitch, il offre une précision chirurgicale. L'usage de mailloches dures souligne son caractère osseux et cristallin, permettant des traits d'une rapidité extrême et une présence sonore inaltérable."
+      },
+      {
+        "title": "L'énergie du fantastique",
+        "text": "Dans la création contemporaine, le xylophone est le vecteur de la curiosité et de l'insolite. Indissociable de l'esthétique de compositeurs comme Danny Elfman, il structure l'imaginaire lié au macabre ludique, au mystère et à l'espièglerie. Sa capacité à souligner les mouvements mécaniques ou saccadés en fait un outil privilégié pour le design sonore de l'animation et du jeu vidéo. Il incarne aujourd'hui la vivacité intellectuelle, la malice des personnages et la pulsation nerveuse des récits d'aventure urbains ou fantastiques."
+      }
+    ]
+  },
+  {
+    "id": "trombones",
+    "name": "Trombone",
+    "usedIn": ["jaws"],
+    "family": "Cuivres à perce cylindrique",
+    "dimensions": "~2,7 mètres de tubure (trombone ténor) se déployant via la coulisse",
+    "weight": "Environ 1,5 à 2,5 kg selon la présence d'une noix (barillet)",
+    "repertoire": "Berlioz, Bruckner, Mahler, Ravel, Tomasi, Williams",
+    "image": "/assets/images/ui/game/instruments/trombonetenor.png",
+    "sections": [
+      {
+        "title": "La voix de l'au-delà",
+        "text": "Unique parmi les cuivres par son absence de pistons ou de valves originelles, le trombone descend directement de la sacqueboute de la Renaissance. Son évolution est restée d'une stabilité remarquable à travers les siècles. Sa caractéristique fondamentale est la coulisse mobile, qui permet de modifier la longueur du tube de manière continue. Cette conception lui a longtemps valu un statut sacré, l'instrument étant perçu comme la seule extension capable d'imiter la voix humaine et d'exprimer la solennité religieuse avant son intégration définitive à l'orchestre symphonique par Beethoven."
+      },
+      {
+        "title": "La dualité du souffle",
+        "text": "Sa singularité réside dans sa capacité à passer d'un murmure choral d'une douceur extrême à un éclat cuivré dévastateur. Grâce à sa perce cylindrique, il possède une clarté et une directionnalité sonore supérieures à celles du cor. Le trombone est le maître du glissando, effet de transition fluide entre les notes impossible pour les autres cuivres. Chez Wagner ou Bruckner, il devient l'instrument de la puissance monumentale et de la terreur métaphysique, capable de saturer l'espace par des accords massifs et une autorité sonore incontestée."
+      },
+      {
+        "title": "Le pilier du bronze moderne",
+        "text": "Indispensable à la grammaire sonore de l'héroïsme et de la menace, le trombone définit le \"bas du spectre\" des cuivres dans le cinéma et le jeu vidéo. Il est l'instrument du jugement et de la force, incarnant souvent la présence d'antagonistes puissants ou la majesté des citadelles. De l'agressivité des brass stabs dans les bandes originales d'action à la noblesse des thèmes de cuivres de John Williams, il structure le sentiment de puissance et de profondeur. Son usage contemporain privilégie son timbre riche en harmoniques pour souligner l'échelle épique des récits."
+      }
+    ]
+  },
+  {
+    "id": "contrebasses",
+    "name": "Contrebasse",
+    "usedIn": ["jaws", "assassins"],
+    "family": "Cordes frottées (ou pincées)",
+    "dimensions": "~1,80 à 2 mètres de hauteur",
+    "weight": "Environ 10 à 15 kg",
+    "repertoire": "Dittersdorf, Bottesini, Mahler, Stravinsky, Mingus, Zimmer",
+    "image": "/assets/images/ui/game/instruments/contrebasse.png",
+    "sections": [
+      {
+        "title": "L'ancrage des profondeurs",
+        "text": "Issue d'une généalogie complexe entre la famille des violes et celle des violons, la contrebasse s'impose comme le géant de l'orchestre au XVIIIe siècle. Sa structure massive, souvent dotée d'épaules fuyantes héritées de la viole de gambe, soutient quatre cordes (parfois cinq pour descendre jusqu'au Do grave) accordées en quartes. Cette architecture lui permet de produire les fréquences les plus basses du spectre des cordes, stabilisant l'édifice sonore par une fondation harmonique inébranlable et une puissance vibratoire capable de faire résonner l'air lui-même."
+      },
+      {
+        "title": "La chair du son",
+        "text": "Sa singularité réside dans sa dualité technique : l'usage de l'archet (arco) pour le lyrisme sombre et le pincement des cordes (pizzicato) pour l'impulsion rythmique. La contrebasse est le métronome organique de l'ensemble, offrant une texture boisée et une profondeur de grain uniques. Chez Mahler ou Chostakovitch, elle sort de l'ombre pour devenir le vecteur de l'angoisse ou de l'ironie. Sa capacité à générer des fréquences sub-bass, tout en conservant une expressivité mélodique dans l'aigu, en fait le liant indispensable entre la percussion et l'harmonie."
+      },
+      {
+        "title": "La résonance des mondes",
+        "text": "Dans la narration moderne, la contrebasse incarne le poids du réel et la tension psychologique. Elle est l'instrument de la gravité et du danger imminent. Omniprésente dans le design sonore du thriller et de la science-fiction, elle utilise des techniques étendues (percussions sur le corps, sul ponticello) pour créer des atmosphères oppressantes ou primitives. Son influence reste hégémonique pour illustrer l'immensité des décors naturels et la force tranquille des personnages légendaires, agissant comme le battement de cœur des récits à l'échelle monumentale."
+      }
+    ]
+  },
+  {
+    "id": "violin",
+    "name": "Violon",
+    "usedIn": ["jaws", "assassins", "dvorak"],
+    "family": "Cordes frottées",
+    "dimensions": "~59 cm de longueur totale ; corps de ~35 cm",
+    "weight": "Environ 400 à 450 grammes",
+    "repertoire": "Bach, Vivaldi, Paganini, Tchaïkovski, Williams",
+    "image": "/assets/images/ui/game/instruments/violon.png",
+    "sections": [
+      {
+        "title": "La perfection de Crémone",
+        "text": "Né dans l'Italie du Nord au XVIe siècle, le violon atteint sa forme définitive sous les mains de luthiers légendaires comme Antonio Stradivari et Andrea Amati. Sa structure, un assemblage complexe d'épicéa et d'érable lié par une âme de bois, n'a quasiment pas changé depuis quatre siècles. Cette stabilité architecturale témoigne d'un équilibre acoustique parfait entre tension et résonance. Au XIXe siècle, l'allongement de la touche et l'inclinaison du manche ont accru sa puissance de projection, le propulsant au rang de roi de l'orchestre et de soliste absolu."
+      },
+      {
+        "title": "Le vecteur de l'émotion pure",
+        "text": "Sa singularité réside dans sa capacité à imiter la voix humaine par sa souplesse expressive et son registre dynamique infini. Maître du lyrisme et de la virtuosité transcendante, le violon est l'instrument de la passion et du tourment chez Paganini ou Tchaïkovski. Grâce au vibrato et à une infinité de coups d'archet (staccato, spiccato, legato), il déploie une palette de textures allant de la fragilité d'un souffle à la brillance d'un métal incandescent. Il occupe la ligne de front mélodique, capable de porter l'identité thématique d'une œuvre entière."
+      },
+      {
+        "title": "L'âme de la narration",
+        "text": "Indissociable de l'iconographie cinématographique et vidéoludique, le violon est le moteur de l'empathie. Il est l'instrument de l'intimité et de la tragédie, capable de souligner la solitude d'un héros ou la fureur d'un duel. Des thèmes déchirants de John Williams aux envolées lyriques des bandes originales d'aventures japonaises, il incarne l'aspect humain et sensible des épopées. Son rôle demeure central dans le design sonore actuel pour traduire la complexité psychologique et la grâce des mondes imaginaires."
+      }
+    ]
+  },
+  {
+    "id": "flutes",
+    "name": "Flûte",
+    "usedIn": ["assassins", "dvorak"],
+    "family": "Bois (à biseau)",
+    "dimensions": "~67 cm de longueur",
+    "weight": "Environ 400 à 600 grammes (selon le métal utilisé)",
+    "repertoire": "Bach, Mozart, Debussy, Poulenc, Anderson, Shore",
+    "image": "/assets/images/ui/game/instruments/flute.png",
+    "sections": [
+      {
+        "title": "La métamorphose de l'argent",
+        "text": "Si la flûte est l'un des plus vieux instruments de l'humanité, sa forme moderne est le résultat d'une révolution radicale menée par Theobald Boehm au milieu du XIXe siècle. Abandonnant le bois pour le métal et la perce conique pour le cylindre, Boehm a redessiné l'emplacement des trous selon des principes acoustiques stricts plutôt que selon la morphologie de la main. Ce système Boehm, doté d'un mécanisme complexe de clés et de plateaux, a transformé un instrument autrefois limité et instable en une machine de précision virtuose, capable d'une justesse et d'une vélocité foudroyantes."
+      },
+      {
+        "title": "Le souffle de l'éther",
+        "text": "Sa singularité réside dans son mode de production sonore : le musicien crée le son en dirigeant un jet d'air contre un biseau, sans l'intermédiaire d'une anche. Cette pureté acoustique confère à la flûte un timbre aérien, cristallin et d'une agilité incomparable. Maître de l'impressionnisme et de la lumière, elle excelle dans l'évocation des éléments naturels (le vent, l'eau, les oiseaux) chez Debussy ou Ravel. Sa palette expressive s'étend de la douceur pastorale du registre grave à la brillance percutante du registre aigu, capable de planer au-dessus de l'orchestre entier."
+      },
+      {
+        "title": "L'écho des mondes antiques",
+        "text": "Dans le design sonore actuel, la flûte est le lien organique avec le mythologique et le sacré. Indissociable de l'imaginaire de l'heroic fantasy (notamment grâce aux thèmes de Howard Shore pour la Terre du Milieu), elle incarne la pureté, l'innocence ou la sagesse ancestrale. Qu'elle soit utilisée pour sa noblesse classique ou dans des versions plus ethniques, elle structure la dimension spirituelle et bucolique des récits. Sa capacité à porter des mélodies d'une grande simplicité en fait l'instrument privilégié pour illustrer la paix des mondes ouverts et la nostalgie des paradis perdus."
+      }
+    ]
+  }
+]

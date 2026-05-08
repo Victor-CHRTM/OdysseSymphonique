@@ -1,0 +1,146 @@
+@use "../variables" as *;
+
+.dialogueBox {
+  position: relative;
+
+  width: clamp(850px, 55vw, 1000px);
+  min-height: 50px;
+
+  padding: 28px 32px 24px;
+  margin: 0 auto;
+  transform: translateY(-20px);
+
+  border-radius: 16px;
+  background-color: $yellow-white;
+  color: $primary--dark-blue;
+
+  font-family: $font--main;
+  font-weight: $font-weight--bold;
+  font-size: 18px;
+
+  &_name {
+    position: absolute;
+    top: -28px;
+    right: 35px;
+
+    padding: 10px 34px;
+
+    border-radius: 12px;
+    background-color: $primary--dark-blue;
+    color: $white;
+    border: 3px solid $yellow-white;
+
+    font-family: $font--secondary;
+    font-size: 24px;
+    font-weight: $font-weight--bold;
+  }
+
+  &--clickable {
+    cursor: pointer;
+  }
+
+  &_hint {
+    position: absolute;
+    right: 20px;
+    bottom: 7px;
+
+    font-size: 13px;
+    opacity: 0.7;
+  }
+
+  p {
+    margin: 0;
+    line-height: 1.5;
+    white-space: pre-line;
+  }
+
+  /* =========================
+     AUDIO BLOCK
+  ========================= */
+
+  &_audioBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  &_audioReference {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    width: 100%;
+    max-width: 720px;
+
+    padding: 10px 14px;
+
+    border-radius: 20px;
+    background-color: $primary--dark-blue;
+
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+  }
+
+  &_audioImage {
+    width: 52px;
+    height: 52px;
+
+    border-radius: 50%;
+    object-fit: cover;
+
+    flex-shrink: 0;
+  }
+
+  &_audioText {
+    flex: 1;
+
+    margin: 0;
+
+    color: $white;
+    font-family: $font--main;
+    font-size: 15px;
+    font-weight: $font-weight--bold;
+    line-height: 1.3;
+  }
+
+  &_audioPlay {
+    width: 54px;
+    height: 54px;
+
+    border-radius: 50%;
+    border: none;
+
+    background-color: $yellow-white;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-shrink: 0;
+
+    transition:
+      transform 0.2s ease,
+      background-color 0.2s ease,
+      border-color 0.2s ease;
+
+    img {
+      width: 40px;
+      height: 40px;
+      object-fit: contain;
+    }
+
+    &:hover {
+      transform: scale(1.08);
+    }
+
+    &.is-playing {
+      background-color: $primary--dark-blue;
+      border: 2px solid $white;
+
+      img {
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+}

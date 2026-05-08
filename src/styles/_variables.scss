@@ -1,0 +1,65 @@
+// --------------- //
+// Variables SCSS Globales
+// --------------- //
+
+// Couleurs Principales
+$primary--red: #7b1e3d;
+$primary--yellow: #d4af37;
+$primary--dark-blue: #0d1b2a;
+$primary--white: #f1f4e8;
+// --------------- //
+
+// Couleurs Autres
+$black: #000000;
+$white: #ffffff;
+$yellow-white: #f4f1e8;
+// --------------- //
+
+// Polices
+$font--main: "Montserrat", sans-serif;
+$font--secondary: "Cormorant Upright", serif;
+$font--decorative: "Amita", serif;
+// --------------- //
+
+// Weights
+$font-weight--light: 300;
+$font-weight--regular: 400;
+$font-weight--medium: 500;
+$font-weight--semi-bold: 600;
+$font-weight--bold: 700;
+// --------------- //
+
+// Border
+$border-sm: 1px;
+$border-md: 2px;
+$border-lg: 3px;
+$border-xl: 3px;
+// --------------- //
+
+// Border Radius
+$radius-sm: 10px;
+$radius-md: 15px;
+$radius-lg: 20px;
+$radius-xl: 30px;
+$radius-xxl: 50px;
+// --------------- //
+
+// Shadows
+// box-shadow: offset-x offset-y blur-radius spread-radius (color, opacity);
+$box-shadow-black: 0 4px 4px 0 rgba($black, 0.25);
+$box-shadow-yellow: 0 0 20px 0 rgba($primary--yellow, 1);
+$box-shadow-red: 0 0 15px 0 rgba($primary--red, 1);
+// --------------- //
+
+// Z-Index
+$z-base: 1; // Pour tous
+$z-overlay: 10; // Overlay sombre
+$z-highlight: 20; // Objets à mettre en avant
+$z-important: 100; // éléments critiques
+// --------------- //
+
+// Breakpoints
+$screen-md: 1024px;
+$screen-lg: 1440px;
+$screen-xl: 1920px;
+// --------------- //

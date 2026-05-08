@@ -1,0 +1,18 @@
+[
+  {
+    "id": "jeux_video",
+    "name": "Jeux Vidéo"
+  },
+  {
+    "id": "cinema",
+    "name": "Cinéma"
+  },
+  {
+    "id": "romantisme",
+    "name": "Romantisme"
+  },
+  {
+    "id": "classique",
+    "name": "Classique"
+  }
+]

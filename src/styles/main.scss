@@ -1,0 +1,50 @@
+// Variables SCSS
+@use "./variables" as *;
+
+// Pages SCSS
+@use "./pages/home" as *;
+@use "./pages/gameSelection" as *;
+@use "./pages/game" as *;
+
+// Components SCSS
+@use "./components/topBar" as *;
+@use "./components/themeButton" as *;
+@use "./components/compositionCard" as *;
+@use "./components/trackCard" as *;
+@use "./components/trackPanel" as *;
+@use "./components/composerPanel" as *;
+@use "./components/dialogueBox" as *;
+@use "./components/timerRewardsPanel" as *;
+@use "./components/bioModal" as *;
+@use "./components/victoryScreen" as *;
+@use "./components/gameOverlayPanel" as *;
+@use "./components/instrumentZone" as *;
+@use "./components/tutorial" as *;
+@use "./components/tutorialOverlay" as *;
+// --------------- //
+
+// --------------- //
+// Global SCSS
+// --------------- //
+
+// Reset
+body {
+  margin: 0;
+  font-family: $font--main;
+  color: $black;
+
+  box-sizing: border-box;
+  overflow: hidden;
+}
+// --------------- //
+
+// Titres
+h1 {
+  font-size: clamp(24px, 2vw, 48px);
+}
+// --------------- //
+
+.tutorial-highlight {
+  position: relative;
+  z-index: $z-important + 1;
+}

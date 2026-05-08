@@ -1,0 +1,756 @@
+[
+  {
+    "id": "jaws",
+    "title": "Les Dents de la mer",
+    "duration": 110,
+    "year": 1975,
+
+    "selectionImage": "/assets/images/compositions/jaws/selection.png",
+
+    "selectionImageStyle": {
+      "width": 320,
+      "top": -10,
+      "left": -45
+    },
+
+    "coverImage": "/assets/images/compositions/jaws/cover.png",
+
+    "coverStyle": {
+      "size": "130%",
+      "position": "0% 50%",
+      "repeat": "no-repeat"
+    },
+
+    "tracksPanelIcon": "/assets/images/compositions/jaws/tracks_panel_icon.png",
+
+    "themeId": "cinema",
+    "parcoursId": "parcours_jaws",
+    "composerId": "john_williams",
+
+    "isPlaced": false,
+
+    "instruments": [
+      {
+        "id": "violin",
+        "name": "Violons",
+        "audio": {
+          "complete": "/assets/audio/cinema/jaws/complete/violins.ogg",
+          "preview": "/assets/audio/cinema/jaws/extrait/violins.ogg"
+        },
+        "defaultVolume": 0.7,
+        "correctZone": "zone_violin"
+      },
+      {
+        "id": "contrebasses",
+        "name": "Contrebasses",
+        "audio": {
+          "complete": "/assets/audio/cinema/jaws/complete/contrebasses.ogg",
+          "preview": "/assets/audio/cinema/jaws/extrait/contrebasses.ogg"
+        },
+        "defaultVolume": 0.7,
+        "correctZone": "zone_contrebasses"
+      },
+      {
+        "id": "flutes",
+        "name": "Flutes",
+        "audio": {
+          "complete": "/assets/audio/cinema/jaws/complete/flutes.ogg",
+          "preview": "/assets/audio/cinema/jaws/extrait/flutes.ogg"
+        },
+        "defaultVolume": 0.7,
+        "correctZone": "zone_flutes"
+      },
+      {
+        "id": "harp",
+        "name": "Harpe",
+        "audio": {
+          "complete": "/assets/audio/cinema/jaws/complete/harp.ogg",
+          "preview": "/assets/audio/cinema/jaws/extrait/harp.ogg"
+        },
+        "defaultVolume": 0.7,
+        "correctZone": "zone_harp"
+      },
+      {
+        "id": "horns",
+        "name": "Cors",
+        "audio": {
+          "complete": "/assets/audio/cinema/jaws/complete/horns.ogg",
+          "preview": "/assets/audio/cinema/jaws/extrait/horns.ogg"
+        },
+        "defaultVolume": 0.7,
+        "correctZone": "zone_horns"
+      },
+      {
+        "id": "percussions",
+        "name": "Percussions",
+        "audio": {
+          "complete": "/assets/audio/cinema/jaws/complete/percussions.ogg",
+          "preview": "/assets/audio/cinema/jaws/extrait/percussions.ogg"
+        },
+        "defaultVolume": 0.7,
+        "correctZone": "zone_percussions"
+      },
+      {
+        "id": "trombones",
+        "name": "Trombones",
+        "audio": {
+          "complete": "/assets/audio/cinema/jaws/complete/trombones.ogg",
+          "preview": "/assets/audio/cinema/jaws/extrait/trombones.ogg"
+        },
+        "defaultVolume": 0.7,
+        "correctZone": "zone_trombones"
+      },
+      {
+        "id": "xylophone",
+        "name": "Xylophone",
+        "audio": {
+          "complete": "/assets/audio/cinema/jaws/complete/xylophone.ogg",
+          "preview": "/assets/audio/cinema/jaws/extrait/xylophone.ogg"
+        },
+        "defaultVolume": 0.7,
+        "correctZone": "zone_xylophone"
+      }
+    ],
+
+    "instrumentZones": [
+      {
+        "id": "zone_horns",
+        "instrumentId": "horns",
+        "label": "Cor",
+        "x": 30,
+        "y": 70,
+        "width": 90,
+        "height": 130,
+        "image": "/assets/images/ui/game/instruments/cor.png",
+        "placedImage": "/assets/images/ui/game/personnages/cor.png"
+      },
+      {
+        "id": "zone_harp",
+        "instrumentId": "harp",
+        "label": "Harpe",
+        "x": 37,
+        "y": 60,
+        "width": 100,
+        "height": 200,
+        "image": "/assets/images/ui/game/instruments/harpe.png",
+        "placedImage": "/assets/images/ui/game/personnages/harpe.png"
+      },
+      {
+        "id": "zone_percussions",
+        "instrumentId": "percussions",
+        "label": "Percussions",
+        "x": 47,
+        "y": 56,
+        "width": 165,
+        "height": 150,
+        "image": "/assets/images/ui/game/instruments/percussions.png",
+        "placedImage": "/assets/images/ui/game/personnages/percussions.png"
+      },
+      {
+        "id": "zone_flutes",
+        "instrumentId": "flutes",
+        "label": "Flûte",
+        "x": 56,
+        "y": 53,
+        "width": 80,
+        "height": 155,
+        "image": "/assets/images/ui/game/instruments/flute.png",
+        "placedImage": "/assets/images/ui/game/personnages/flute.png"
+      },
+      {
+        "id": "zone_xylophone",
+        "instrumentId": "xylophone",
+        "label": "Xylophone",
+        "x": 63,
+        "y": 50,
+        "width": 160,
+        "height": 115,
+        "image": "/assets/images/ui/game/instruments/xylophone.png",
+        "placedImage": "/assets/images/ui/game/personnages/xylophone.png"
+      },
+      {
+        "id": "zone_violin",
+        "instrumentId": "violin",
+        "label": "Violon",
+        "x": 68,
+        "y": 68,
+        "width": 85,
+        "height": 145,
+        "image": "/assets/images/ui/game/instruments/violon.png",
+        "placedImage": "/assets/images/ui/game/personnages/violon.png"
+      },
+      {
+        "id": "zone_trombones",
+        "instrumentId": "trombones",
+        "label": "Trombone",
+        "x": 75,
+        "y": 53,
+        "width": 100,
+        "height": 200,
+        "image": "/assets/images/ui/game/instruments/trombonetenor.png",
+        "placedImage": "/assets/images/ui/game/personnages/trombonetenor.png"
+      },
+      {
+        "id": "zone_contrebasses",
+        "instrumentId": "contrebasses",
+        "label": "Contrebasse",
+        "x": 84,
+        "y": 63,
+        "width": 100,
+        "height": 250,
+        "image": "/assets/images/ui/game/instruments/contrebasse.png",
+        "placedImage": "/assets/images/ui/game/personnages/contrebasse.png"
+      }
+    ],
+
+    "trapTracks": [
+      {
+        "id": "trap_1",
+        "name": "Trompettes...",
+        "audio": {
+          "preview": "/assets/audio/cinema/jaws/extrait/fake_pirate_trompettes.ogg"
+        }
+      },
+      {
+        "id": "trap_2",
+        "name": "Trompettes...",
+        "audio": {
+          "preview": "/assets/audio/cinema/jaws/extrait/fake_starswars_trompettes.ogg"
+        }
+      },
+      {
+        "id": "trap_3",
+        "name": "Trompettes...",
+        "audio": {
+          "preview": "/assets/audio/cinema/jaws/extrait/fake_zelda_trompettes.ogg"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "id": "flowers",
+        "name": "Collier de fleurs",
+        "image": "/assets/images/compositions/jaws/skins/gift1.png"
+      },
+      {
+        "id": "shark-hat",
+        "name": "Chapeau requin",
+        "image": "/assets/images/compositions/jaws/skins/gift2.png"
+      },
+      {
+        "id": "unicorn",
+        "name": "Bouée licorne",
+        "image": "/assets/images/compositions/jaws/skins/gift3.png"
+      }
+    ],
+    "recommendations": [
+      {
+        "id": "dvorak",
+        "title": "Symphonie n°9"
+      },
+      {
+        "id": "starwars",
+        "title": "Star Wars"
+      },
+      {
+        "id": "assassins-creed-ef2",
+        "title": "Assassin's Creed II"
+      }
+    ]
+  },
+  {
+    "id": "starwars",
+    "title": "Star Wars",
+    "duration": 205,
+    "year": 1977,
+
+    "selectionImage": "/assets/images/compositions/starwars/selection.png",
+
+    "selectionImageStyle": {
+      "width": 310,
+      "top": -10,
+      "left": -65
+    },
+
+    "coverImage": "/assets/images/compositions/starwars/cover.png",
+
+    "coverStyle": {
+      "size": "120%",
+      "position": "50% 20%",
+      "repeat": "no-repeat"
+    },
+
+    "tracksPanelIcon": "/assets/images/compositions/starwars/tracks_panel_icon.png",
+
+    "themeId": "cinema",
+    "parcoursId": "parcours_starwars",
+    "composerId": "john_williams",
+
+    "isPlaced": false,
+
+    "instruments": [],
+    "trapTracks": []
+  },
+  {
+    "id": "pirates-des-caraibes",
+    "title": "Pirates des Caraïbes",
+    "duration": 70,
+    "year": 2003,
+
+    "selectionImage": "/assets/images/compositions/pirates-des-caraibes/selection.png",
+
+    "selectionImageStyle": {
+      "width": 310,
+      "top": -30,
+      "left": -70
+    },
+
+    "coverImage": "/assets/images/compositions/pirates-des-caraibes/cover.png",
+
+    "coverStyle": {
+      "size": "120%",
+      "position": "50% 20%",
+      "repeat": "no-repeat"
+    },
+
+    "tracksPanelIcon": "/assets/images/compositions/pirates-des-caraibes/tracks_panel_icon.png",
+
+    "themeId": "cinema",
+    "parcoursId": "parcours_pirates-des-caraibes",
+    "composerId": "hans_zimmer",
+
+    "isPlaced": false,
+
+    "instruments": [],
+    "trapTracks": []
+  },
+  {
+    "id": "simpsons",
+    "title": "Les Simpsons",
+    "duration": 84,
+    "year": 2007,
+
+    "selectionImage": "/assets/images/compositions/simpsons/selection.png",
+
+    "selectionImageStyle": {
+      "width": 280,
+      "top": -50,
+      "left": -50
+    },
+
+    "coverImage": "/assets/images/compositions/simpsons/cover.png",
+
+    "coverStyle": {
+      "size": "120%",
+      "position": "50% 20%",
+      "repeat": "no-repeat"
+    },
+
+    "tracksPanelIcon": "/assets/images/compositions/simpsons/tracks_panel_icon.png",
+
+    "themeId": "cinema",
+    "parcoursId": "parcours_simpsons",
+    "composerId": "danny_elfman",
+
+    "isPlaced": false,
+
+    "instruments": [],
+    "trapTracks": []
+  },
+  {
+    "id": "genshin-impact",
+    "title": "Genshin Impact",
+    "duration": 113,
+    "year": 2023,
+
+    "selectionImage": "/assets/images/compositions/genshin-impact/selection.png",
+
+    "selectionImageStyle": {
+      "width": 280,
+      "top": -50,
+      "left": -50
+    },
+
+    "coverImage": "/assets/images/compositions/genshin-impact/cover.png",
+
+    "coverStyle": {
+      "size": "120%",
+      "position": "50% 20%",
+      "repeat": "no-repeat"
+    },
+
+    "tracksPanelIcon": "/assets/images/compositions/genshin-impact/tracks_panel_icon.png",
+
+    "themeId": "jeux_video",
+    "parcoursId": "parcours_genshin-impact",
+    "composerId": "yu-peng_chen",
+
+    "isPlaced": false,
+
+    "instruments": [],
+    "trapTracks": []
+  },
+  {
+    "id": "animal-crossing",
+    "title": "Animal Crossing New Horizons",
+    "duration": 38,
+    "year": 2020,
+
+    "selectionImage": "/assets/images/compositions/animal-crossing/selection.png",
+
+    "selectionImageStyle": {
+      "width": 230,
+      "top": -50,
+      "left": -50
+    },
+
+    "coverImage": "/assets/images/compositions/animal-crossing/cover.png",
+
+    "coverStyle": {
+      "size": "120%",
+      "position": "50% 20%",
+      "repeat": "no-repeat"
+    },
+
+    "tracksPanelIcon": "/assets/images/compositions/animal-crossing/tracks_panel_icon.png",
+
+    "themeId": "jeux_video",
+    "parcoursId": "parcours_animal-crossing",
+    "composerId": "yasuaki_iwata",
+
+    "isPlaced": false,
+
+    "instruments": [],
+    "trapTracks": []
+  },
+  {
+    "id": "assassins-creed-ef2",
+    "title": "Assassin's Creed II Ezio's Family",
+    "duration": 99,
+    "year": 2009,
+
+    "selectionImage": "/assets/images/compositions/assassins-creed-ef2/selection.png",
+
+    "selectionImageStyle": {
+      "width": 280,
+      "top": -50,
+      "left": -50
+    },
+
+    "coverImage": "/assets/images/compositions/assassins-creed-ef2/cover.png",
+
+    "coverStyle": {
+      "size": "120%",
+      "position": "50% 20%",
+      "repeat": "no-repeat"
+    },
+
+    "tracksPanelIcon": "/assets/images/compositions/assassins-creed-ef2/tracks_panel_icon.png",
+
+    "themeId": "jeux_video",
+    "parcoursId": "parcours_assassins-creed-ef2",
+    "composerId": "jesper_kyd",
+
+    "isPlaced": false,
+
+    "instruments": [],
+    "trapTracks": []
+  },
+  {
+    "id": "zelda",
+    "title": "The Legend Of Zelda",
+    "duration": 43,
+    "year": 1986,
+
+    "selectionImage": "/assets/images/compositions/zelda/selection.png",
+
+    "selectionImageStyle": {
+      "width": 280,
+      "top": -50,
+      "left": -50
+    },
+
+    "coverImage": "/assets/images/compositions/zelda/cover.png",
+
+    "coverStyle": {
+      "size": "120%",
+      "position": "50% 20%",
+      "repeat": "no-repeat"
+    },
+
+    "tracksPanelIcon": "/assets/images/compositions/zelda/tracks_panel_icon.png",
+
+    "themeId": "jeux_video",
+    "parcoursId": "parcours_zelda",
+    "composerId": "koji_kondo",
+
+    "isPlaced": false,
+
+    "instruments": [],
+    "trapTracks": []
+  },
+  {
+    "id": "symphonie_num9",
+    "title": "Symphonie nº 9 « Du Nouveau Monde »",
+    "duration": 155,
+    "year": 1893,
+
+    "selectionImage": "/assets/images/compositions/symphonie_num9/selection.png",
+
+    "selectionImageStyle": {
+      "width": 280,
+      "top": -50,
+      "left": -50
+    },
+
+    "coverImage": "/assets/images/compositions/symphonie_num9/cover.png",
+
+    "coverStyle": {
+      "size": "120%",
+      "position": "50% 20%",
+      "repeat": "no-repeat"
+    },
+
+    "tracksPanelIcon": "/assets/images/compositions/symphonie_num9/tracks_panel_icon.png",
+
+    "themeId": "romantisme",
+    "parcoursId": "parcours_symphonie_num9",
+    "composerId": "antonin_dvorak",
+
+    "isPlaced": false,
+
+    "instruments": [],
+    "trapTracks": []
+  },
+  {
+    "id": "nocturne_op9",
+    "title": "Nocturne Op. 9 nº 2",
+    "duration": 88,
+    "year": 1930,
+
+    "selectionImage": "/assets/images/compositions/nocturne_op9/selection.png",
+
+    "selectionImageStyle": {
+      "width": 280,
+      "top": -50,
+      "left": -50
+    },
+
+    "coverImage": "/assets/images/compositions/nocturne_op9/cover.png",
+
+    "coverStyle": {
+      "size": "120%",
+      "position": "50% 20%",
+      "repeat": "no-repeat"
+    },
+
+    "tracksPanelIcon": "/assets/images/compositions/nocturne_op9/tracks_panel_icon.png",
+
+    "themeId": "romantisme",
+    "parcoursId": "parcours_nocturne_op9",
+    "composerId": "frederic_chopin",
+
+    "isPlaced": false,
+
+    "instruments": [],
+    "trapTracks": []
+  },
+  {
+    "id": "chevauchee_walkyries",
+    "title": "La Chevauchée des Walkyries",
+    "duration": 132,
+    "year": 1851,
+
+    "selectionImage": "/assets/images/compositions/chevauchee_walkyries/selection.png",
+
+    "selectionImageStyle": {
+      "width": 280,
+      "top": -50,
+      "left": -50
+    },
+
+    "coverImage": "/assets/images/compositions/chevauchee_walkyries/cover.png",
+
+    "coverStyle": {
+      "size": "120%",
+      "position": "50% 20%",
+      "repeat": "no-repeat"
+    },
+
+    "tracksPanelIcon": "/assets/images/compositions/chevauchee_walkyries/tracks_panel_icon.png",
+
+    "themeId": "romantisme",
+    "parcoursId": "parcours_chevauchee_walkyries",
+    "composerId": "richard_wagner",
+
+    "isPlaced": false,
+
+    "instruments": [],
+    "trapTracks": []
+  },
+  {
+    "id": "valse_fleurs_casse_noisette",
+    "title": "Valse des fleurs Casse-Noisette",
+    "duration": 226,
+    "year": 1891,
+
+    "selectionImage": "/assets/images/compositions/valse_fleurs_casse_noisette/selection.png",
+
+    "selectionImageStyle": {
+      "width": 280,
+      "top": -50,
+      "left": -50
+    },
+
+    "coverImage": "/assets/images/compositions/valse_fleurs_casse_noisette/cover.png",
+
+    "coverStyle": {
+      "size": "120%",
+      "position": "50% 20%",
+      "repeat": "no-repeat"
+    },
+
+    "tracksPanelIcon": "/assets/images/compositions/valse_fleurs_casse_noisette/tracks_panel_icon.png",
+
+    "themeId": "romantisme",
+    "parcoursId": "parcours_valse_fleurs_casse_noisette",
+    "composerId": "tchaikovsk",
+
+    "isPlaced": false,
+
+    "instruments": [],
+    "trapTracks": []
+  },
+  {
+    "id": "symphonie_num40",
+    "title": "Symphonie nº 40",
+    "duration": 173,
+    "year": 1788,
+
+    "selectionImage": "/assets/images/compositions/symphonie_num40/selection.png",
+
+    "selectionImageStyle": {
+      "width": 280,
+      "top": -50,
+      "left": -50
+    },
+
+    "coverImage": "/assets/images/compositions/symphonie_num40/cover.png",
+
+    "coverStyle": {
+      "size": "120%",
+      "position": "50% 20%",
+      "repeat": "no-repeat"
+    },
+
+    "tracksPanelIcon": "/assets/images/compositions/symphonie_num40/tracks_panel_icon.png",
+
+    "themeId": "classique",
+    "parcoursId": "parcours_symphonie_num40",
+    "composerId": "mozart",
+
+    "isPlaced": false,
+
+    "instruments": [],
+    "trapTracks": []
+  },
+  {
+    "id": "concerto_bourgeois_num3",
+    "title": "Concerto brande bourgeois nº 3",
+    "duration": 74,
+    "year": 1718,
+
+    "selectionImage": "/assets/images/compositions/concerto_bourgeois_num3/selection.png",
+
+    "selectionImageStyle": {
+      "width": 280,
+      "top": -50,
+      "left": -50
+    },
+
+    "coverImage": "/assets/images/compositions/concerto_bourgeois_num3/cover.png",
+
+    "coverStyle": {
+      "size": "120%",
+      "position": "50% 20%",
+      "repeat": "no-repeat"
+    },
+
+    "tracksPanelIcon": "/assets/images/compositions/concerto_bourgeois_num3/tracks_panel_icon.png",
+
+    "themeId": "classique",
+    "parcoursId": "parcours_concerto_bourgeois_num3",
+    "composerId": "bach",
+
+    "isPlaced": false,
+
+    "instruments": [],
+    "trapTracks": []
+  },
+  {
+    "id": "symphonie_num5",
+    "title": "Symphonie nº 5",
+    "duration": 185,
+    "year": 1804,
+
+    "selectionImage": "/assets/images/compositions/symphonie_num5/selection.png",
+
+    "selectionImageStyle": {
+      "width": 280,
+      "top": -50,
+      "left": -50
+    },
+
+    "coverImage": "/assets/images/compositions/symphonie_num5/cover.png",
+
+    "coverStyle": {
+      "size": "120%",
+      "position": "50% 20%",
+      "repeat": "no-repeat"
+    },
+
+    "tracksPanelIcon": "/assets/images/compositions/symphonie_num5/tracks_panel_icon.png",
+
+    "themeId": "classique",
+    "parcoursId": "parcours_symphonie_num5",
+    "composerId": "beethoven",
+
+    "isPlaced": false,
+
+    "instruments": [],
+    "trapTracks": []
+  },
+  {
+    "id": "quatre_saisons",
+    "title": "Les Quatre Saisons",
+    "duration": 285,
+    "year": 1723,
+
+    "selectionImage": "/assets/images/compositions/quatre_saisons/selection.png",
+
+    "selectionImageStyle": {
+      "width": 280,
+      "top": -50,
+      "left": -50
+    },
+
+    "coverImage": "/assets/images/compositions/quatre_saisons/cover.png",
+
+    "coverStyle": {
+      "size": "120%",
+      "position": "50% 20%",
+      "repeat": "no-repeat"
+    },
+
+    "tracksPanelIcon": "/assets/images/compositions/quatre_saisons/tracks_panel_icon.png",
+
+    "themeId": "classique",
+    "parcoursId": "parcours_quatre_saisons",
+    "composerId": "vivaldi",
+
+    "isPlaced": false,
+
+    "instruments": [],
+    "trapTracks": []
+  }
+]

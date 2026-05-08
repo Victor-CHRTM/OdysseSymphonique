@@ -1,0 +1,114 @@
+@use "../variables" as *;
+
+.bioModal {
+  position: fixed;
+  inset: 0;
+  z-index: $z-important + 2;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: $primary--dark-blue;
+
+  &_overlay {
+    position: absolute;
+    inset: 0;
+
+    background-color: rgba($primary--dark-blue, 0.6);
+    backdrop-filter: blur(4px);
+  }
+
+  &_card {
+    position: relative;
+    z-index: $z-base;
+
+    width: 600px;
+    height: 750px;
+
+    padding: 45px 55px 55px;
+
+    background-image: url("/assets/images/ui/game/fond-bio.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  &_close {
+    position: absolute;
+    top: 55px;
+    right: 48px;
+
+    width: 22px;
+    height: 22px;
+
+    padding: 0;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  }
+
+  &_instrumentImage {
+    position: absolute;
+    top: 25px;
+    right: 100px;
+
+    max-width: 150px;
+    max-height: 160px;
+
+    object-fit: contain;
+
+    filter: drop-shadow(0 8px 12px rgba($black, 0.25));
+    pointer-events: none;
+  }
+
+  &_content {
+    height: 100%;
+    overflow-y: auto;
+    padding: 0 30px 0;
+    scrollbar-gutter: stable;
+
+    h2 {
+      margin: 0 0 50px;
+
+      font-family: $font--secondary;
+      font-size: 40px;
+      font-weight: $font-weight--bold;
+    }
+
+    h3 {
+      margin: 10px 0 10px;
+
+      font-family: $font--secondary;
+      font-size: 32px;
+      font-weight: $font-weight--bold;
+    }
+
+    p {
+      margin: 0 0 20px;
+
+      font-family: $font--main;
+      font-weight: $font-weight--medium;
+      font-size: 16px;
+      line-height: 1.45;
+    }
+
+    &::-webkit-scrollbar {
+      width: 5px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: $primary--dark-blue;
+      border-radius: $radius-xl;
+    }
+
+    &::-webkit-scrollbar-track {
+      margin: 80px 0 30px;
+    }
+  }
+}
